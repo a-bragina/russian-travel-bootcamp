@@ -1,0 +1,32 @@
+.wrapper_section_lead {
+    padding: 0;
+    margin: 0 148px 92px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .wrapper_section_lead {
+       margin: 0 48px 92px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper_section_lead {
+       margin: 0 0 88px;
+    }
+}
+
+@media (max-width: 425px) {
+    .wrapper_section_lead {
+        margin: 0 0 76px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper_section_lead {
+        margin: 0 0 64px;
+    }
+}

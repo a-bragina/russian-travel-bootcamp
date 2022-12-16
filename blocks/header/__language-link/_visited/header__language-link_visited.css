@@ -1,0 +1,3 @@
+.header__language-link_visited {
+    border-bottom: 2px var(--text-color) solid;
+}
