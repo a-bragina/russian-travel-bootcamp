@@ -1,0 +1,28 @@
+.place-card__image {
+    margin: 0;
+    padding: 0;
+    grid-area: image;
+    max-width: 460px;
+    max-height: 460px;
+}
+
+@media (max-width: 1024px) {
+    .place-card__image {
+        max-width: 440px;
+        max-height: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place-card__image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place-card__image {
+        max-width: 320px;
+        max-height: 320px;
+    }
+}
