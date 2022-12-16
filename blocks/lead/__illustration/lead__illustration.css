@@ -1,0 +1,27 @@
+.lead__illustration {
+    margin: 0;
+    padding: 0;
+    max-width: 984px;
+    min-width: 320px;
+    max-height: 100%;
+    margin-bottom: 8px;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__illustration {
+       max-width: 928px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__illustration {
+        max-width: 768px; 
+     }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__illustration {
+        max-width: 320px; 
+     }
+}
