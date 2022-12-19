@@ -1,0 +1,12 @@
+.place-card__text-container {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+@media (max-width: 768px) {
+    .place-card__text-container {
+        row-gap: 25px;
+    }
+}

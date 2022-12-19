@@ -1,16 +1,15 @@
-.place-card__link {
-    margin: 0;
+.cover__subtitle {
     padding: 0;
-    grid-area: link;
+    margin: 0;
+    padding-left: 412px;
+    padding-right: 412px;
+    margin-bottom: 254px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-decoration-line: underline;
+    text-align: center;
     color: var(--text-color);
-}
-
-.place-card__link:hover {
-    opacity: .8;
+    z-index: 1;
 }

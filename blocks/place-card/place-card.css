@@ -2,11 +2,30 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 460px 484px;
-    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    grid-template-columns: 460px  484px;
     grid-template-areas: 
-        "title url"
-        "title link"
-        "image text"
-        "image text-second";
+        "title url-link"
+        "image text";
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+@media (max-width: 1024px) {
+    .place-card {
+        grid-template-columns: 440px  456px;
+        column-gap: 32px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .place-card {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+        grid-template-areas: 
+            "title"
+            "url-link"
+            "image"
+            "text";
+    }
 }
