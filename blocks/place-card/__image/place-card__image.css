@@ -1,0 +1,14 @@
+.place-card__image {
+    margin: 0;
+    padding: 0;
+    grid-area: image;
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+@media (max-width: 600px) and (min-width: 321px) {
+    .place-card__image {
+        margin: 0 auto;
+    }
+}

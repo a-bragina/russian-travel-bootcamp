@@ -1,0 +1,15 @@
+.place-card__url {
+    margin: 0;
+    padding: 0;
+    grid-area: url;
+    color: var(--url-color);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    align-self: end;
+    margin-bottom: 12px;
+
+}

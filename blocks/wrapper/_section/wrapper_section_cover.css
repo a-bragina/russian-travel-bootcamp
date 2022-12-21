@@ -1,0 +1,30 @@
+.wrapper_section_cover {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0 48px;
+    margin-bottom: 92px;
+    box-sizing: border-box;
+    max-height: 740px;
+    overflow: hidden;
+   
+}
+
+@media (max-width: 1024px) {
+    .wrapper_section_cover  {
+        padding: 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper_section_cover {
+        margin-bottom: 88px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper_section_cover {
+        margin-bottom: 64px;
+    }
+}
