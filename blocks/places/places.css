@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 80px;
     align-items: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 320px) {

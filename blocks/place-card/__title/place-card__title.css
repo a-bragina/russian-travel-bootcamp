@@ -6,21 +6,30 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
     color: var(--text-color);
  
+}
+
+@media (max-width: 1024px) {
+    .place-card__title {
+        font-size: clamp(42px, 8vw, 72px);
+    
+    }
 }
 
 @media (max-width: 768px) {
     .place-card__title {
         font-size: 42px;
-        line-height: 46px;
+        line-height: 110%;
     }
 }
+
 
 @media (max-width: 320px) {
     .place-card__title {
         font-size: 32px;
-        line-height: 35px;
+        line-height: 109%;
+        padding-left: 16px;
     }
 }

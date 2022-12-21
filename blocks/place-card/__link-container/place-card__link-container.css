@@ -1,0 +1,10 @@
+.place-card__link-container {
+    grid-area: url-link;
+    align-self: end;
+}
+
+@media (max-width: 320px) {
+    .place-card__link-container {
+        padding-left: 16px;
+    }
+}

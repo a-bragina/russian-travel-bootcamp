@@ -6,11 +6,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
+    line-height: 122%;
+    text-decoration-line: none;
     color: var(--text-color);
 }
 
-.place-card__link:hover {
-    opacity: .8;
-}

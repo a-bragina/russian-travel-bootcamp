@@ -5,6 +5,12 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
+    line-height: 107%;
     margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .intro__title {
+        font-size: clamp(32px, 10vw, 54px);
+    }
 }

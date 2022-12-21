@@ -6,6 +6,7 @@
     width: 100%;
     gap: 16px;
     justify-items: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 1024px) {
