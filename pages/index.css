@@ -3,19 +3,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../setups/variables.css);
-@import url(../blocks/link/_type/link_type_hover.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/link/_type/link_type_underlined.css);
 
-/* wrappers */
 
-@import url(../blocks/wrapper/wrapper.css);
-@import url(../blocks/wrapper/_section/wrapper_section_header.css);
-@import url(../blocks/wrapper/_section/wrapper_section_lead.css);
-@import url(../blocks/wrapper/_section/wrapper_section_intro.css);
-@import url(../blocks/wrapper/_section/wrapper_section_photo-grid.css);
-@import url(../blocks/wrapper/_section/wrapper_section_places.css);
-@import url(../blocks/wrapper/_section/wrapper_section_cover.css);
-@import url(../blocks/wrapper/_section/wrapper_section_footer.css);
 
 /* page */
 
@@ -26,6 +17,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-container/header__lang-container.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
 /* lead */
@@ -43,7 +35,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_type/intro__list-item_type_bold.css);
+@import url(../blocks/intro/__list-item-text/intro__list-item-text.css);
 
 /* photo-grid */
 
@@ -65,7 +57,7 @@
 /* cover */
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
@@ -75,3 +67,14 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+/* wrappers */
+
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_cover.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_footer.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_header.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_intro.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_lead.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_photo-grid.css);
+@import url(../blocks/wrapper/__section/_place/wrapper__section_place_places.css);

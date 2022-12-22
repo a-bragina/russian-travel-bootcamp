@@ -1,4 +1,4 @@
-.wrapper_section_header {
+.wrapper__section_place_header {
     margin: 0;
     padding-top: 28px;
     padding-left: 48px;
@@ -9,28 +9,22 @@
 }
 
 @media (max-width: 1024px) {
-    .wrapper_section_header {
-        padding-top: 28px;
-        padding-left: 48px;
-        padding-right: 48px;
+    .wrapper__section_place_header {
         margin-bottom: 48px;
     }
 }
 
 @media (max-width: 768px) {
-    .wrapper_section_header {
-        padding-top: 28px;
+    .wrapper__section_place_header {
         padding-left: 24px;
         padding-right: 24px;
-        margin-bottom: 48px;
     }
 }
 
 @media (max-width: 320px) {
-    .wrapper_section_header {
+    .wrapper__section_place_header {
         padding-top: 16px;
         padding-left: 16px;
         padding-right: 16px;
-        margin-bottom: 48px;
     }
 }

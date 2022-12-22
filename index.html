@@ -8,25 +8,25 @@
   </head>
   <body class="page">
     <div class="wrapper">
-      <div class="wrapper wrapper_section_header">
-        <div class="header">
-          <img
-            class="header__logo"
-            src="images/header/logo.svg"
-            alt="логотип 'Карта России'"
-          />
-          <ul class="header__lang-container">
-            <li>
-              <a class="header__lang-link link link_type_underlined" href="#"
-                >Ru</a
-              >
-            </li>
-            <li><a class="header__lang-link" href="#">En</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="wrapper wrapper_section_lead">
-        <div class="lead">
+      <header class="header wrapper__section_place_header">
+        <img
+          class="header__logo"
+          src="images/header/logo.svg"
+          alt="логотип 'Карта России'"
+        />
+        <ul class="header__lang-container">
+          <li>
+            <a
+              class="header__lang-link header__lang-link_selected link"
+              href="#"
+              >Ru</a
+            >
+          </li>
+          <li><a class="header__lang-link link" href="#">En</a></li>
+        </ul>
+      </header>
+      <main>
+        <section class="lead wrapper__section_place_lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
@@ -39,10 +39,9 @@
           />
 
           <p class="lead__illustration-subtitle">ваша полка — верхняя</p>
-        </div>
-      </div>
-      <div class="wrapper wrapper_section_intro">
-        <section class="intro">
+        </section>
+
+        <section class="intro wrapper__section_place_intro">
           <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
           <p class="intro__text">
             По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
@@ -60,40 +59,33 @@
           </p>
           <ul class="intro__list">
             <li class="intro__list-item">
-              <span class="intro__list-item intro__list-item_type_bold"
-                >Часовых поясов</span
-              >
+              <span class="intro__list-item-text">Часовых поясов</span>
               11
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item intro__list-item_type_bold"
+              <span class="intro__list-item-text"
                 >Объектов природного наследия ЮНЕСКО</span
               >
               12
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item intro__list-item_type_bold"
+              <span class="intro__list-item-text"
                 >Объектов культурного наследия ЮНЕСКО</span
               >
               16
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item intro__list-item_type_bold"
-                >Природных заповедников</span
-              >
+              <span class="intro__list-item-text">Природных заповедников</span>
               105
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item intro__list-item_type_bold"
-                >Аэропортов</span
-              >
+              <span class="intro__list-item-text">Аэропортов</span>
               241
             </li>
           </ul>
         </section>
-      </div>
-      <div class="wrapper wrapper_section_photo-grid">
-        <section class="photo-grid">
+
+        <section class="photo-grid wrapper__section_place_photo-grid">
           <img
             class="photo-grid__image"
             src="images/photo-grid/photo-grid-1.webp"
@@ -155,9 +147,8 @@
             alt="Иллюстрация"
           />
         </section>
-      </div>
-      <div class="wrapper wrapper_section_places">
-        <section class="places">
+
+        <section class="places wrapper__section_place_places">
           <article class="place-card">
             <h2 class="place-card__title">Куршская коса</h2>
             <img
@@ -168,7 +159,7 @@
             <div class="place-card__link-container">
               <p class="place-card__url">URL</p>
               <a
-                class="place-card__link link link link_type_underlined link_type_hover"
+                class="place-card__link link link link_type_underlined"
                 href="http://park-kosa.ru"
                 >park-kosa.ru</a
               >
@@ -202,7 +193,7 @@
             <div class="place-card__link-container">
               <p class="place-card__url">URL</p>
               <a
-                class="place-card__link link link_type_underlined link_type_hover"
+                class="place-card__link link link_type_underlined"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 >National Geographic</a
               >
@@ -236,7 +227,7 @@
             <div class="place-card__link-container">
               <p class="place-card__url">URL</p>
               <a
-                class="place-card__link link link_type_underlined link_type_hover"
+                class="place-card__link link link_type_underlined"
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                 >YouTube</a
               >
@@ -270,7 +261,7 @@
             <div class="place-card__link-container">
               <p class="place-card__url">URL</p>
               <a
-                class="place-card__link link link_type_underlined link_type_hover"
+                class="place-card__link link link_type_underlined"
                 href="https://vk.com/baikalmile"
                 >https://vk.com/baikalmile</a
               >
@@ -302,7 +293,7 @@
             <div class="place-card__link-container">
               <p class="place-card__url">URL</p>
               <a
-                class="place-card__link link link_type_underlined link_type_hover"
+                class="place-card__link link link_type_underlined"
                 href="http://vodlozero.ru"
                 >http://vodlozero.ru/</a
               >
@@ -324,11 +315,10 @@
             </div>
           </article>
         </section>
-      </div>
-      <div class="wrapper wrapper_section_cover">
-        <section class="cover">
+
+        <section class="cover wrapper__section_place_cover">
           <a
-            class="cover__image"
+            class="cover__link"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
           >
             <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
@@ -338,49 +328,35 @@
             </p>
           </a>
         </section>
-      </div>
-      <div class="wrapper wrapper_section_footer">
-        <section class="footer">
-          <ul class="footer__links">
-            <li>
-              <a
-                class="footer__link link link_type_hover"
-                href="https://yandex.ru/maps"
-                >Карты</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer__link link link_type_hover"
-                href="https://yandex.ru/pogoda"
-                >Погода</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer__link link link_type_hover"
-                href="https://rasp.yandex.ru"
-                >Расписание</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer__link link link_type_hover"
-                href="https://calendar.yandex.ru"
-                >Календарь</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer__link link link_type_hover"
-                href="https://travel.yandex.ru"
-                >Путешествия</a
-              >
-            </li>
-          </ul>
-          <p class="footer__copyright">&copy; 2022. Анастасия Брагина</p>
-        </section>
-      </div>
+      </main>
+      <footer class="footer wrapper__section_place_footer">
+        <ul class="footer__links">
+          <li>
+            <a class="footer__link link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li>
+            <a class="footer__link link" href="https://yandex.ru/pogoda"
+              >Погода</a
+            >
+          </li>
+          <li>
+            <a class="footer__link link" href="https://rasp.yandex.ru"
+              >Расписание</a
+            >
+          </li>
+          <li>
+            <a class="footer__link link" href="https://calendar.yandex.ru"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a class="footer__link link" href="https://travel.yandex.ru"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
+        <p class="footer__copyright">&copy; 2022. Анастасия Брагина</p>
+      </footer>
     </div>
   </body>
 </html>

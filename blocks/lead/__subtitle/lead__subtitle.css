@@ -25,6 +25,13 @@
     }
 }
 
+@media (max-width: 600px) {
+    .lead__subtitle {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 @media (max-width: 320px) {
     .lead__subtitle {
         font-size: 16px;
