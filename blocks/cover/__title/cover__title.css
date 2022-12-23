@@ -24,6 +24,13 @@
     }
 }
 
+@media (max-width: 1023px) and (min-width: 769px) {
+    .cover__title {
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+}
+
 @media (max-width: 768px) {
     .cover__title  {
         padding-left: 13.54%;
