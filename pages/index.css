@@ -6,6 +6,10 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_type/link_type_underlined.css);
 
+/* main */
+
+@import url(../blocks/main/main.css);
+
 /* page */
 
 @import url(../blocks/page/page.css);
